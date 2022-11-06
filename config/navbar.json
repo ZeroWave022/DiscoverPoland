@@ -1,0 +1,16 @@
+{
+    "links": [
+        {
+            "name": "Placeholder 1",
+            "src": "temp"
+        },
+        {
+            "name": "Placeholder 2",
+            "src": "temp"
+        },
+        {
+            "name": "Blog",
+            "src": "/blog"
+        }
+    ]
+}

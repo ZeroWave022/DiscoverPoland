@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+
+    gap: 15px;
+}
+
+.container img {
+    display: block;
+    width: 500px;
+    height: 500px;
+}
+
+.map {
+    display: block;
+    position: relative;
+}
+
+.map a {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: red;
+    
+    position: absolute;
+}
+
+.map #SZZ {
+    top: 22%;
+    left: 3.5%;
+}
+
+.map #GDN {
+    top: 7%;
+    left: 44%;
+}
+
+.map #WAW {
+    top: 46%;
+    right: 30%;
+}
+
+.map #KRK {
+    bottom: 15%;
+    right: 40%;
+}
+
+.map #WRO {
+    bottom: 34%;
+    left: 28%;
+}
+
+.container .infoBox {
+    padding: 15px;
+    width: 35vw;
+
+    background-color: lightgray;
+}

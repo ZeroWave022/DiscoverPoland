@@ -1,0 +1,19 @@
+.container {
+    
+}
+
+.discoverTitle {
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.discoverTitle h1 {
+    display: inline;
+    font-size: 3em;
+}
+
+.discoverTitle h1:last-child {
+    color: rgb(225, 0, 0);
+}

@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    
+    background-color: rgb(255, 255, 255);
+    
+    font-weight: 600;
+}
+
+.container .active {
+    color: white;
+    background-color: rgb(225, 0, 0);
+}
+
+.container div {
+    padding: 15px;
+}
+
+.container #linksAside {
+    min-width: 400px;
+}
+
+.container a {
+    padding: inherit;
+    width: 100%;
+
+    color: black;
+
+    text-align: center;
+    text-decoration: none;
+
+    transition: 0.5s ease-in-out;
+}
+
+.container a:hover:not(.active) {
+    background-color: rgb(60, 60, 60);
+    color: white;
+
+    transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,12 @@
+.title {
+    text-align: center;
+}
+
+.SaturdayBright {
+    font-family: 'SaturdayBright';
+}
+
+@font-face {
+    font-family: SaturdayBright;
+    src: url("/fonts/SaturdayBright.woff");
+}
