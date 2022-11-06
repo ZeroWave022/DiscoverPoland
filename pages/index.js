@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
 
-import Layout from "../components/Layout/layout.js";
+import Layout from "../components/Layout/Layout.js";
 import FullscreenVideo from "../components/FullscreenVideo/FullscreenVideo.js";
 import InteractiveMap from "../components/Interactivemap/InteractiveMap.js";
 

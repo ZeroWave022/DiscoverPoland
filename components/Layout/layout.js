@@ -2,7 +2,7 @@ import React from "react";
 import Head from 'next/head';
 import Navbar from "../Navbar/navbar.js";
 
-import styles from "./layout.module.css";
+import styles from "./Layout.module.css";
 import Footer from "../Footer/Footer.js";
 
 function Layout({ metadata, navbar, children }) {
