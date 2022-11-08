@@ -12,7 +12,14 @@
 
     background-color: rgba(255, 255, 255, 0.7);
 
-    box-shadow: rgba(0, 0, 0, 0.4) 4px 8px 8px;
-
     transition: 0.2s ease-in-out;
+}
+
+/* Define the types of shadow boxes we can choose from. */
+.mediumShadow:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 4px 4px;
+}
+
+.largeShadow:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 4px 8px 8px;
 }
