@@ -35,3 +35,7 @@
 .socials h1 {
     grid-column: span 2;
 }
+
+.projectInfo {
+    max-width: 400px;
+}

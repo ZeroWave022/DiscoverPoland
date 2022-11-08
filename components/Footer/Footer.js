@@ -33,6 +33,15 @@ function Footer() {
                 <Image src="/vercel.svg" width={50} height={50} alt=""/>
                 </a>
             </div>
+            <div className={styles.projectInfo}>
+                <Title size="large">About this project</Title>
+                <p>
+                    Discover Poland has been made to promote tourism in Poland, so more people may be interested in visiting the ❤️ of Europe.
+                </p>
+                <p>
+                    This project can be seen on <TextLink href="https://github.com/ZeroWave022/DiscoverPoland" target="_blank" rel="noreferrer">GitHub</TextLink>.
+                </p>
+            </div>
             
         </div>
     );
