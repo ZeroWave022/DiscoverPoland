@@ -1,16 +1,23 @@
 import React from "react";
-import Image from "next/image";
-
-import styles from "./TextLink.module.css";
-import Title from "../Title/title";
 import Link from "next/link";
 
-function TextLink({href, children}) {
-    return (
-        <>
-        <Link href={href} className={styles.textLink}>{children}</Link>
-        </>
-    );
+import styles from "./TextLink.module.css";
+
+function TextLink({ href, target, shadowSize, children }) {
+    let attributes = {
+        className: styles.textLink,
+        href: href,
+        target: target,
+        rel: "noreferrer",
+    };
+
+    if (shadowSize) {
+        attributes.style = {
+            boxShadow: `rgba(0, 0, 0, 0.4) ${shadowSize}`,
+        };
+    }
+
+    return React.createElement(Link, attributes, children);
 }
 
 export default TextLink;
