@@ -32,9 +32,17 @@ export async function getServerSideProps() {
 }
 
 export default function Home({ metadata, navbar }) {
+    const indexVideoInfo = (
+        <>
+            All rights belong to their respective owners. <br />
+            Originally filmed by <a href="https://www.youtube.com/c/DKVideoPL/" target="_blank" rel="noreferrer">DK Video</a>, 
+            featured <a href="https://www.youtube.com/watch?v=ifVVc8xTas0" target="_blank" rel="noreferrer">here</a>.
+        </>
+    );
+
     return (
         <Layout metadata={metadata} navbar={navbar}>
-            <FullscreenVideo src="/videos/Poland - background video.mp4" />
+            <FullscreenVideo src="/videos/Poland - background video.mp4" videoInfo={indexVideoInfo} />
             <div className={styles.discoverTitle}>
                 <Title size="large" font="SaturdayBright">Discover</Title>
                 <Title size="large" font="SaturdayBright">Poland</Title>

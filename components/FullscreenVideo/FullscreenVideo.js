@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 import styles from "./FullscreenVideo.module.css";
 
-function FullscreenVideo({ src }) {
+function FullscreenVideo({ src, videoInfo }) {
     const [height, setHeight] = React.useState(0);
 
     function updateHeight() {
@@ -22,7 +22,7 @@ function FullscreenVideo({ src }) {
     return (
         <div ref={ref} className={styles.container}>
             <video  src={src} autoPlay muted style={{ "height": height }}></video>
-            <p className={styles.videoInfo}>All rights belong to their respective owners. <br />Originally filmed by <a href="https://www.youtube.com/c/DKVideoPL/" target="_blank" rel="noreferrer">DK Video</a>, featured <a href="https://www.youtube.com/watch?v=ifVVc8xTas0" target="_blank" rel="noreferrer">here</a>.</p>
+            <p className={styles.videoInfo}>{videoInfo}</p>
         </div>
     );
 }
