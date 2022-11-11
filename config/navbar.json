@@ -1,16 +1,16 @@
 {
     "links": [
         {
-            "name": "Placeholder 1",
-            "src": "temp"
-        },
-        {
-            "name": "Placeholder 2",
-            "src": "temp"
+            "name": "Cities",
+            "src": "/cities"
         },
         {
             "name": "Blog",
             "src": "/blog"
+        },
+        {
+            "name": "About",
+            "src": "/about"
         }
     ]
 }

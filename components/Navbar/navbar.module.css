@@ -17,10 +17,6 @@
     padding: 15px;
 }
 
-.container #linksAside {
-    min-width: 400px;
-}
-
 .container a {
     padding: inherit;
     width: 100%;

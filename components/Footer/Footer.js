@@ -11,9 +11,9 @@ function Footer() {
         <div className={styles.container}>
             <div className={styles.general}>
                 <h1>Discover Poland</h1>
-                <TextLink href="#">Placeholder 1</TextLink>
-                <TextLink href="#">Placeholder 2</TextLink>
-                <TextLink href="/blog">Blog</TextLink>
+                <TextLink href="#">Cities</TextLink>
+                <TextLink href="#">Blog</TextLink>
+                <TextLink href="/blog">About</TextLink>
             </div>
             <div className={styles.socials}>
                 <Title size="large">Social Media</Title>
