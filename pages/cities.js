@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import Layout from "../components/Layout/Layout.js";
 import FullscreenVideo from "../components/FullscreenVideo/FullscreenVideo.js";
-import InteractiveMap from "../components/Interactivemap/InteractiveMap.js";
+import InteractiveMap from "../components/InteractiveMap/InteractiveMap.js";
 import Title from "../components/Title/title";
 import ImageGrid from "../components/ImageGrid/ImageGrid";
 
