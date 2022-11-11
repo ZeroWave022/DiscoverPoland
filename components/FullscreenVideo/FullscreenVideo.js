@@ -21,7 +21,7 @@ function FullscreenVideo({ src, videoInfo }) {
     
     return (
         <div ref={ref} className={styles.container}>
-            <video  src={src} autoPlay muted style={{ "height": height }}></video>
+            <video src={src} autoPlay muted loop style={{ "height": height }}></video>
             <p className={styles.videoInfo}>{videoInfo}</p>
         </div>
     );
