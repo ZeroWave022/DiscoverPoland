@@ -22,6 +22,7 @@ function InteractiveMap({ src }) {
 
                     <a id={styles.SZZ} href="" onClick={(e) => handleClick(e)} />
                     <a id={styles.GDN} href="" onClick={(e) => handleClick(e)} />
+                    <a id={styles.POZ} href="" onClick={(e) => handleClick(e)} />
                     <a id={styles.WAW} href="" onClick={(e) => handleClick(e)} />
                     <a id={styles.KRK} href="" onClick={(e) => handleClick(e)} />
                     <a id={styles.WRO} href="" onClick={(e) => handleClick(e)} />
