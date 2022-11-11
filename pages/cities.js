@@ -3,10 +3,10 @@ import Image from "next/image";
 import Layout from "../components/Layout/Layout.js";
 import FullscreenVideo from "../components/FullscreenVideo/FullscreenVideo.js";
 import InteractiveMap from "../components/InteractiveMap/InteractiveMap.js";
-import Title from "../components/Title/title";
-import ImageGrid from "../components/ImageGrid/ImageGrid";
+import Title from "../components/Title/Title.js";
+import ImageGrid from "../components/ImageGrid/ImageGrid.js";
 
-import getNavbarLinks from "../lib/getNavbarLinks";
+import getNavbarLinks from "../lib/getNavbarLinks.js";
 
 import styles from "../styles/Home.module.css";
 
