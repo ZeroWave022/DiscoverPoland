@@ -1,8 +1,6 @@
 import React from "react";
-import Head from "next/head";
-import Navbar from "../Navbar/navbar";
 
-import styles from "./title.module.css";
+import styles from "./Title.module.css";
 
 const TitleSizes = {
     large: "h1",

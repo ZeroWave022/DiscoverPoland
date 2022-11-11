@@ -2,9 +2,8 @@ import React from "react";
 import Image from "next/image";
 
 import styles from "./Footer.module.css";
-import Title from "../Title/title";
-import Link from "next/link";
-import TextLink from "../TextLink/TextLink";
+import Title from "../Title/Title.js";
+import TextLink from "../TextLink/TextLink.js";
 
 function Footer() {
     return (

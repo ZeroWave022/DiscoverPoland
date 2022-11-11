@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import toDisplayableTime from '../../lib/time.js';
 
-import styles from "./clock.module.css";
+import styles from "./Clock.module.css";
 
 function Clock({ props }) {
     const initDate = new Date(props.date);

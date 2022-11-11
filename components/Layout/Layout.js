@@ -1,6 +1,6 @@
 import React from "react";
 import Head from 'next/head';
-import Navbar from "../Navbar/navbar.js";
+import Navbar from "../Navbar/Navbar.js";
 
 import styles from "./Layout.module.css";
 import Footer from "../Footer/Footer.js";
