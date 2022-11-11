@@ -42,7 +42,7 @@ export default function Home({ metadata, navbar }) {
 
     return (
         <Layout metadata={metadata} navbar={navbar}>
-            <FullscreenVideo src="/videos/Poland - background video.mp4" videoInfo={indexVideoInfo} />
+            <FullscreenVideo src="/videos/PolandBackgroundVideo.mp4" videoInfo={indexVideoInfo} />
             <div className={styles.discoverTitle}>
                 <Title size="large" font="SaturdayBright">Discover</Title>
                 <Title size="large" font="SaturdayBright">Poland</Title>
