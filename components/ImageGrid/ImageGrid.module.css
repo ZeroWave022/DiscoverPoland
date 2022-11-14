@@ -1,10 +1,42 @@
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+    width: 80vw;
+    margin: auto;
+
+    max-width: 1200px;
 
     justify-items: center;
 }
 
+.container > * {
+    position: relative;
+    text-align: center;
+}
+
+.container * > p {
+    color: white;
+    font-weight: bold;
+    
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    margin: 0;
+
+    width: 100%;
+    padding: 5% 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container * > img {
+    width: 100%;
+    height: auto;
+
+    display: block;
+}
 
 @media only screen and (max-width: 900px) {
     .container {
