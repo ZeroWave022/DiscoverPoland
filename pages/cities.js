@@ -21,7 +21,7 @@ const pageConfig = {
     },
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     let navbarLinks = await getNavbarLinks();
 
     return {
