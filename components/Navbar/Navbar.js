@@ -28,7 +28,7 @@ function Navbar({ config }) {
 
     return (
         <div className={styles.container}>
-            <div id={styles.homeLink}>{navHome}</div>
+            <div>{navHome}</div>
             <div id={styles.linksAside}>{navLinksAside}</div>
         </div>
     );
