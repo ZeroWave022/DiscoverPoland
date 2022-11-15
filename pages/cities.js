@@ -9,6 +9,7 @@ import ImageGrid from "../components/ImageGrid/ImageGrid.js";
 import getNavbarLinks from "../lib/getNavbarLinks.js";
 
 import styles from "../styles/Home.module.css";
+import { krakow, wroclaw, warszawa, poznan, gdansk, szczecin } from "../lib/getThumbnails.js";
 
 const pageConfig = {
     metadata: {
@@ -20,7 +21,7 @@ const pageConfig = {
     },
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     let navbarLinks = await getNavbarLinks();
 
     return {
@@ -40,28 +41,28 @@ export default function Home({ metadata, navbar }) {
             <Title size="large">Cities</Title>
             <ImageGrid>
                 <div>
-                    <Image src="/vercel.svg" width={200} height={200} alt="City 1"/>
-                    <p>City 1</p>
+                    <Image src={krakow} alt="Kraków - Wawel Royal Castle"/>
+                    <p>Kraków</p>
                 </div>
                 <div>
-                    <Image src="/vercel.svg" width={200} height={200} alt="City 2"/>
-                    <p>City 2</p>
+                    <Image src={wroclaw} alt="Wrocław - Old Town"/>
+                    <p>Wrocław</p>
                 </div>
                 <div>
-                    <Image src="/vercel.svg" width={200} height={200} alt="City 3"/>
-                    <p>City 3</p>
+                    <Image src={warszawa} alt="Warszawa - City Center"/>
+                    <p>Warszawa</p>
                 </div>
                 <div>
-                    <Image src="/vercel.svg" width={200} height={200} alt="City 4"/>
-                    <p>City 4</p>
+                    <Image src={poznan} alt="Poznań - Old Town"/>
+                    <p>Poznań</p>
                 </div>
                 <div>
-                    <Image src="/vercel.svg" width={200} height={200} alt="City 5"/>
-                    <p>City 5</p>
+                    <Image src={gdansk} alt="Gdańsk - Neptune's Fountain"/>
+                    <p>Gdańsk</p>
                 </div>
                 <div>
-                    <Image src="/vercel.svg" width={200} height={200} alt="City 6"/>
-                    <p>City 5</p>
+                    <Image src={szczecin} alt="Szczecin - Port"/>
+                    <p>Szczecin</p>
                 </div>
             </ImageGrid>
         </Layout>

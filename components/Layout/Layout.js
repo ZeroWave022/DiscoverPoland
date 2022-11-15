@@ -13,11 +13,13 @@ function Layout({ metadata, navbar, children }) {
             <meta name="description" content={metadata.description} />
             <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Navbar config={navbar} />
-        <main className={styles.main}>
-            {children}
-        </main>
-        <Footer />
+        <div className={styles.body}>
+            <Navbar config={navbar} />
+            <main className={styles.main}>
+                {children}
+            </main>
+            <Footer />
+        </div>
         </>
     );
 }
