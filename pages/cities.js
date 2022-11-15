@@ -41,27 +41,27 @@ export default function Home({ metadata, navbar }) {
             <Title size="large">Cities</Title>
             <ImageGrid>
                 <div>
-                    <Image src={krakow} alt="Kraków - Wawel Royal Castle"/>
+                    <Image src={krakow} alt="Kraków - Wawel Royal Castle" priority />
                     <p>Kraków</p>
                 </div>
                 <div>
-                    <Image src={wroclaw} alt="Wrocław - Old Town"/>
+                    <Image src={wroclaw} alt="Wrocław - Old Town" priority />
                     <p>Wrocław</p>
                 </div>
                 <div>
-                    <Image src={warszawa} alt="Warszawa - City Center"/>
+                    <Image src={warszawa} alt="Warszawa - City Center" priority />
                     <p>Warszawa</p>
                 </div>
                 <div>
-                    <Image src={poznan} alt="Poznań - Old Town"/>
+                    <Image src={poznan} alt="Poznań - Old Town" priority />
                     <p>Poznań</p>
                 </div>
                 <div>
-                    <Image src={gdansk} alt="Gdańsk - Neptune's Fountain"/>
+                    <Image src={gdansk} alt="Gdańsk - Neptune's Fountain" priority />
                     <p>Gdańsk</p>
                 </div>
                 <div>
-                    <Image src={szczecin} alt="Szczecin - Port"/>
+                    <Image src={szczecin} alt="Szczecin - Port" priority />
                     <p>Szczecin</p>
                 </div>
             </ImageGrid>
