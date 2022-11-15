@@ -7,6 +7,8 @@ import InteractiveMap from "../components/InteractiveMap/InteractiveMap.js";
 import getNavbarLinks from "../lib/getNavbarLinks.js";
 import Title from "../components/Title/Title.js";
 
+import poland from "../public/pl.svg";
+
 const pageConfig = {
     metadata: {
         title: "Discover Poland: Homepage",
@@ -47,7 +49,7 @@ export default function Home({ metadata, navbar }) {
                 <Title size="large" font="SaturdayBright">Discover</Title>
                 <Title size="large" font="SaturdayBright">Poland</Title>
             </div>
-            <InteractiveMap src="/pl.svg" />
+            <InteractiveMap src={poland} />
         </Layout>
     );
 }

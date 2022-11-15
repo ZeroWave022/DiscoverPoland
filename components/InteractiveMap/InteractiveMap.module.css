@@ -16,6 +16,8 @@
 .map {
     display: block;
     position: relative;
+
+    width: min-content;
 }
 
 .map a {
@@ -61,4 +63,18 @@
     width: 35vw;
 
     background-color: lightgray;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .map, .infoBox {
+        margin: auto;
+    }
+
+    .container .infoBox {
+        width: 80vw;
+    }
 }

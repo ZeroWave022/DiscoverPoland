@@ -17,7 +17,7 @@ function InteractiveMap({ src }) {
         <div className={styles.container}>
             <div>
                 <div className={styles.map}>
-                    <Image src={src} width={500} height={500} alt="Map of Poland" />
+                    <Image src={src} alt="Map of Poland" />
 
                     <a id={styles.SZZ} href="" onClick={(e) => handleClick(e)} />
                     <a id={styles.GDN} href="" onClick={(e) => handleClick(e)} />
