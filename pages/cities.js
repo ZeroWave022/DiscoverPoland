@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Link from "next/link.js";
 
-import Layout from "../components/Layout/Layout.js";
-import FullscreenVideo from "../components/FullscreenVideo/FullscreenVideo.js";
-import InteractiveMap from "../components/InteractiveMap/InteractiveMap.js";
-import Title from "../components/Title/Title.js";
-import ImageGrid from "../components/ImageGrid/ImageGrid.js";
+import Layout from "@components/Layout/Layout.js";
+import FullscreenVideo from "@components/FullscreenVideo/FullscreenVideo.js";
+import InteractiveMap from "@components/InteractiveMap/InteractiveMap.js";
+import Title from "@components/Title/Title.js";
+import ImageGrid from "@components/ImageGrid/ImageGrid.js";
 
-import getNavbarLinks from "../lib/getNavbarLinks.js";
+import getNavbarLinks from "@lib/getNavbarLinks.js";
 
-import styles from "../styles/Home.module.css";
-import { krakow, wroclaw, warszawa, poznan, gdansk, szczecin } from "../lib/getThumbnails.js";
+import styles from "@styles/Home.module.css";
+import { krakow, wroclaw, warszawa, poznan, gdansk, szczecin } from "@lib/getThumbnails.js";
 
 const pageConfig = {
     metadata: {

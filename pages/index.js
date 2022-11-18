@@ -1,13 +1,12 @@
-import styles from "../styles/Home.module.css";
+import Layout from "@components/Layout/Layout.js";
+import FullscreenVideo from "@components/FullscreenVideo/FullscreenVideo.js";
+import InteractiveMap from "@components/InteractiveMap/InteractiveMap.js";
+import getNavbarLinks from "@lib/getNavbarLinks.js";
+import Title from "@components/Title/Title.js";
 
-import Layout from "../components/Layout/Layout.js";
-import FullscreenVideo from "../components/FullscreenVideo/FullscreenVideo.js";
-import InteractiveMap from "../components/InteractiveMap/InteractiveMap.js";
+import styles from "@styles/Home.module.css";
 
-import getNavbarLinks from "../lib/getNavbarLinks.js";
-import Title from "../components/Title/Title.js";
-
-import poland from "../public/pl.svg";
+import poland from "/public/pl.svg";
 
 const pageConfig = {
     metadata: {
