@@ -31,7 +31,6 @@ function MyApp({ Component, pageProps }) {
                 <Title size="large" font="SaturdayBright">Discover</Title>
                 <Title size="large" font="SaturdayBright">Poland</Title>
             </div>
-            <Title size="large">Loading...</Title>
         </div>
     )
     } else {
