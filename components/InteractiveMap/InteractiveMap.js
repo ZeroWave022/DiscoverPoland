@@ -25,17 +25,15 @@ function InteractiveMap({ src }) {
     
     return (
         <div className={styles.container}>
-            <div>
-                <div className={styles.map}>
-                    <Image src={src} alt="Map of Poland" />
+            <div className={styles.map}>
+                <Image src={src} alt="Map of Poland" />
+                <a id={styles.SZZ} href="" onClick={(e) => handleClick(e)} />
 
-                    <a id={styles.SZZ} href="" onClick={(e) => handleClick(e)} />
-                    <a id={styles.GDN} href="" onClick={(e) => handleClick(e)} />
-                    <a id={styles.POZ} href="" onClick={(e) => handleClick(e)} />
-                    <a id={styles.WAW} href="" onClick={(e) => handleClick(e)} />
-                    <a id={styles.KRK} href="" onClick={(e) => handleClick(e)} />
-                    <a id={styles.WRO} href="" onClick={(e) => handleClick(e)} />
-                </div>
+                <a id={styles.GDN} href="" onClick={(e) => handleClick(e)} />
+                <a id={styles.POZ} href="" onClick={(e) => handleClick(e)} />
+                <a id={styles.WAW} href="" onClick={(e) => handleClick(e)} />
+                <a id={styles.KRK} href="" onClick={(e) => handleClick(e)} />
+                <a id={styles.WRO} href="" onClick={(e) => handleClick(e)} />
             </div>
             
             <div className={infoBoxClass}>
