@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link.js";
 
 import Layout from "../components/Layout/Layout.js";
 import FullscreenVideo from "../components/FullscreenVideo/FullscreenVideo.js";
@@ -40,30 +41,30 @@ export default function Home({ metadata, navbar }) {
         <Layout metadata={metadata} navbar={navbar}>
             <Title size="large">Cities</Title>
             <ImageGrid>
-                <div>
+                <Link href="/cities/krakow">
                     <Image src={krakow} alt="Kraków - Wawel Royal Castle" priority />
                     <p>Kraków</p>
-                </div>
-                <div>
+                </Link>
+                <Link href="/cities/wroclaw">
                     <Image src={wroclaw} alt="Wrocław - Old Town" priority />
                     <p>Wrocław</p>
-                </div>
-                <div>
+                </Link>
+                <Link href="/cities/warszawa">
                     <Image src={warszawa} alt="Warszawa - City Center" priority />
                     <p>Warszawa</p>
-                </div>
-                <div>
+                </Link>
+                <Link href="/cities/poznan">
                     <Image src={poznan} alt="Poznań - Old Town" priority />
                     <p>Poznań</p>
-                </div>
-                <div>
+                </Link>
+                <Link href="/cities/gdansk">
                     <Image src={gdansk} alt="Gdańsk - Neptune's Fountain" priority />
                     <p>Gdańsk</p>
-                </div>
-                <div>
+                </Link>
+                <Link href="/cities/szczecin">
                     <Image src={szczecin} alt="Szczecin - Port" priority />
                     <p>Szczecin</p>
-                </div>
+                </Link>
             </ImageGrid>
         </Layout>
     );
