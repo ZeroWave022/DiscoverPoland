@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import Title from "@components/Title/Title.js";
 import TextLink from "@components/TextLink/TextLink.js";
 
 import styles from "./Footer.module.css";
-import Link from "next/link";
 
 function Footer() {
     return (
@@ -35,7 +35,6 @@ function Footer() {
                         <Image src="/images/icons/youtube.png" width={50} height={50} alt=""/>
                     </Link>
                 </div>
-                
             </div>
             <div className={styles.projectInfo}>
                 <Title size="large">About this project</Title>
@@ -46,7 +45,6 @@ function Footer() {
                     This project can be seen on <TextLink href="https://github.com/ZeroWave022/DiscoverPoland" target="_blank" shadowSize="medium">GitHub</TextLink>.
                 </p>
             </div>
-            
         </div>
     );
 }
