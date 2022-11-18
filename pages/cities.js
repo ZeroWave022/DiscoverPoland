@@ -42,28 +42,40 @@ export default function Home({ metadata, navbar }) {
             <Title size="large">Cities</Title>
             <ImageGrid>
                 <Link href="/cities/krakow">
-                    <Image src={krakow} alt="Kraków - Wawel Royal Castle" priority />
-                    <p>Kraków</p>
+                    <>
+                        <Image src={krakow} alt="Kraków - Wawel Royal Castle" priority />
+                        <p>Kraków</p>
+                    </>
                 </Link>
                 <Link href="/cities/wroclaw">
-                    <Image src={wroclaw} alt="Wrocław - Old Town" priority />
-                    <p>Wrocław</p>
+                    <>
+                        <Image src={wroclaw} alt="Wrocław - Old Town" priority />
+                        <p>Wrocław</p>
+                    </>
                 </Link>
                 <Link href="/cities/warszawa">
-                    <Image src={warszawa} alt="Warszawa - City Center" priority />
-                    <p>Warszawa</p>
+                    <>
+                        <Image src={warszawa} alt="Warszawa - City Center" priority />
+                        <p>Warszawa</p>
+                    </>
                 </Link>
                 <Link href="/cities/poznan">
-                    <Image src={poznan} alt="Poznań - Old Town" priority />
-                    <p>Poznań</p>
+                    <>
+                        <Image src={poznan} alt="Poznań - Old Town" priority />
+                        <p>Poznań</p>
+                    </>
                 </Link>
                 <Link href="/cities/gdansk">
-                    <Image src={gdansk} alt="Gdańsk - Neptune's Fountain" priority />
-                    <p>Gdańsk</p>
+                    <>
+                        <Image src={gdansk} alt="Gdańsk - Neptune's Fountain" priority />
+                        <p>Gdańsk</p>
+                    </>
                 </Link>
                 <Link href="/cities/szczecin">
-                    <Image src={szczecin} alt="Szczecin - Port" priority />
-                    <p>Szczecin</p>
+                    <>
+                        <Image src={szczecin} alt="Szczecin - Port" priority />
+                        <p>Szczecin</p>
+                    </>
                 </Link>
             </ImageGrid>
         </Layout>
