@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link.js";
+import Link from "next/link";
 
 import Layout from "@components/Layout/Layout.js";
 import FullscreenVideo from "@components/FullscreenVideo/FullscreenVideo.js";
@@ -36,7 +36,7 @@ export async function getStaticProps() {
     };
 }
 
-export default function Home({ metadata, navbar }) {
+export default function Cities({ metadata, navbar }) {
     return (
         <Layout metadata={metadata} navbar={navbar}>
             <Title size="large">Cities</Title>
