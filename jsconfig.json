@@ -8,6 +8,9 @@
             "@pages/*": [
                 "./pages/*"
             ],
+            "@public/*": [
+                "./public/*"
+            ],
             "@styles/*": [
                 "./styles/*"
             ],
