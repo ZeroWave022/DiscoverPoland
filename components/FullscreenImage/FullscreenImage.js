@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import styles from "./FullscreenImage.module.css";
 
-function FullscreenImage({ src, alt, text }) {
+function FullscreenImage({ src, alt, title, description }) {
     
     function updateTransform(image) {
         let offsetTop = image.offsetTop;
@@ -32,7 +32,8 @@ function FullscreenImage({ src, alt, text }) {
     return (
         <div className={styles.container}>
             <Image src={src} alt={alt} />
-            <h1 className={styles.imageText}>{text}</h1>
+            <h1 className={styles.imageText}>{title}</h1>
+            <span className={styles.description}>{description}</span>
         </div>
     );
 }
