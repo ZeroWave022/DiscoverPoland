@@ -1,9 +1,10 @@
 <div align="center">
 
-<a>![Contributors](https://img.shields.io/github/contributors/ZeroWave022/DiscoverPoland)</a>
-<a>![Forks](https://img.shields.io/github/forks/ZeroWave022/DiscoverPoland)</a>
-<a>![Issues](https://img.shields.io/github/issues/ZeroWave022/DiscoverPoland)</a>
-<a>![Licence](https://img.shields.io/github/license/ZeroWave022/DiscoverPoland)</a>
+<a href="https://github.com/ZeroWave022/DiscoverPoland/graphs/contributors">![Contributors](https://img.shields.io/github/contributors/ZeroWave022/DiscoverPoland)</a>
+<a href="https://github.com/ZeroWave022/DiscoverPoland/network/members">![Forks](https://img.shields.io/github/forks/ZeroWave022/DiscoverPoland)</a>
+<a href="https://github.com/ZeroWave022/DiscoverPoland/issues">![Issues](https://img.shields.io/github/issues/ZeroWave022/DiscoverPoland)</a>
+<a>![Code Size](https://img.shields.io/github/languages/code-size/ZeroWave022/DiscoverPoland)</a>
+<a href="https://github.com/ZeroWave022/DiscoverPoland/blob/main/LICENSE">![Licence](https://img.shields.io/github/license/ZeroWave022/DiscoverPoland)</a>
 
 </div>
 
@@ -18,7 +19,7 @@
 
 ## Prerequisites
 Node.js 14.6.0+ and npm are required to run this website.
-You may read additional information about requirements on on [Next.js' website](https://nextjs.org/docs/getting-started).
+You may read additional information about requirements on [Next.js' website](https://nextjs.org/docs/getting-started).
 
 ## Installation
 - Clone the repository with
