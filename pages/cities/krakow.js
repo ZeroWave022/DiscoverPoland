@@ -53,7 +53,7 @@ export default function Krakow({ metadata, navbar }) {
                 <DescribedImage src={TownSquare} alt="Krakow Town Square" description="Kraków Town Square. By Dimitris Vetsikas on Pixabay" />
             </LandmarkInfo>
             
-            <FullscreenImage src={WawelLarge} alt="Wawel Royal Castle" text="Wawel Royal Castle" />
+            <FullscreenImage src={WawelLarge} alt="Wawel Royal Castle" title="Wawel Royal Castle" />
             
             <LandmarkInfo>
                 <DescribedImage src={krakow} alt="Wawel Royal Castle" description="By tevenet on Pixabay" />
@@ -65,7 +65,7 @@ export default function Krakow({ metadata, navbar }) {
                 </div>
             </LandmarkInfo>
             
-            <FullscreenImage src={SaltMineLarge} alt="Wieliczka Salt Mine" text="Wieliczka Salt Mine" />
+            <FullscreenImage src={SaltMineLarge} alt="Wieliczka Salt Mine" title="Wieliczka Salt Mine" />
             
             <LandmarkInfo>
                 <div>
@@ -77,7 +77,7 @@ export default function Krakow({ metadata, navbar }) {
                 <DescribedImage src={SaltMineSmall} alt="Wieliczka Salt Mine" description="By Jacek Abramowicz on Pixabay" />
             </LandmarkInfo>
 
-            <FullscreenImage src={SMBLarge} alt="Saint Mary's Basilica" text="Saint Mary's Basilica" />
+            <FullscreenImage src={SMBLarge} alt="Saint Mary's Basilica" title="Saint Mary's Basilica" />
             
             <LandmarkInfo>
                 <DescribedImage src={SMBSmall} alt="Saint Mary's Basilica" description="By Jar.ciurus on Wikimedia Commons. CC BY-SA 3.0 PL" />
