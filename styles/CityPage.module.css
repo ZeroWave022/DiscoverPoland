@@ -1,0 +1,30 @@
+.backButton {
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+
+    font-weight: 600;
+
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border: 3px solid rgb(225, 0, 0);
+    border-radius: 2px 25px 25px 25px;
+
+    transition: 0.5s ease-in-out;
+}
+
+.backButton:hover {
+    background-color: rgb(225, 0, 0);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.8) 4px 8px 8px;
+    transform: scale(1.01);
+    transition: 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+    .backButton {
+        display: none;
+    }
+}

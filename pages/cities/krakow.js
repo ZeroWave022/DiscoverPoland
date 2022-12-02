@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import Layout from "@components/Layout/Layout.js";
 import Title from "@components/Title/Title.js";
@@ -15,6 +16,8 @@ import SMBLarge from "@public/images/landmarks/SaintMaryBasilica-large.jpg";
 import SMBSmall from "@public/images/landmarks/SaintMaryBasilica-small.jpg";
 import SaltMineLarge from "@public/images/landmarks/Wieliczka-large.jpg";
 import SaltMineSmall from "@public/images/landmarks/Wieliczka-small.jpg";
+
+import styles from "@styles/CityPage.module.css";
 
 const pageConfig = {
     metadata: {
@@ -88,6 +91,10 @@ export default function Krakow({ metadata, navbar }) {
                     <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
                 </div>
             </LandmarkInfo>
+
+            <Link className={styles.backButton} href="/cities">
+                Back to all cities
+            </Link>
         </Layout>
     );
 }
