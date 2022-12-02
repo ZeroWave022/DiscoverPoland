@@ -9,13 +9,11 @@ function FullscreenImage({ src, alt, title, description }) {
         let offsetTop = image.offsetTop;
         let value = (window.scrollY - offsetTop) / 100;
         
-        let text = image.children[1];
-        
         if (value > 0) {
-            text.classList.add(styles.highlighted);
+            image.classList.add(styles.highlighted);
         }
         else {
-            text.classList.remove(styles.highlighted);
+            image.classList.remove(styles.highlighted);
         }
     }
 
