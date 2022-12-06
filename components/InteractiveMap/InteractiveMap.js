@@ -15,6 +15,8 @@ function InteractiveMap({ src }) {
     const [highlighted, setHighlight] = React.useState(false);
     const [currentCity, setCity] = React.useState("default");
 
+    const infoBoxRef = React.useRef(null);
+
     /**
      * @param {SyntheticEvent} e
      * @param {string} cityName
@@ -27,6 +29,12 @@ function InteractiveMap({ src }) {
             
             setHighlight(true);
             setTimeout(() => setHighlight(false), 2000);
+
+            if (window.innerWidth <= 1000) {
+                infoBoxRef.current.scrollIntoView({
+                    behavior: "smooth"
+                });
+            }
         }
     }
     
@@ -43,8 +51,8 @@ function InteractiveMap({ src }) {
                 <a id={styles.KRK} href="" onClick={(e) => handleClick(e, "KRK")} />
                 <a id={styles.WRO} href="" onClick={(e) => handleClick(e, "WRO")} />
             </div>
-            
-            <div className={infoBoxClass}> 
+
+            <div ref={infoBoxRef} className={infoBoxClass}> 
                 {CityDescriptions[currentCity]}
             </div>
         </div>
