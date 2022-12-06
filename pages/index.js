@@ -6,7 +6,7 @@ import Title from "@components/Title/Title.js";
 
 import styles from "@styles/Home.module.css";
 
-import poland from "/public/pl.svg";
+import poland from "@public/images/PolandMap.svg";
 
 const pageConfig = {
     metadata: {
