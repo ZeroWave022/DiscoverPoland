@@ -1,7 +1,12 @@
 .container {
     display: flex;
+    justify-content: center;
     margin: 1em 5vw;
     gap: 15px;
+}
+
+.text {
+    max-width: 700px;
 }
 
 .container img {
