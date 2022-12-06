@@ -18,6 +18,7 @@ import CHLarge from "@public/images/landmarks/CentennialHall-large.jpg";
 import CHSmall from "@public/images/landmarks/CentennialHall-small.jpg";
 
 import styles from "@styles/CityPage.module.css";
+import LIstyles from "@components/LandmarkInfo/LandmarkInfo.module.css";
 
 const pageConfig = {
     metadata: {
@@ -47,7 +48,7 @@ export default function Wroclaw({ metadata, navbar }) {
     return (
         <Layout metadata={metadata} navbar={navbar}>
             <LandmarkInfo>
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Wrocław</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -60,7 +61,7 @@ export default function Wroclaw({ metadata, navbar }) {
             
             <LandmarkInfo>
                 <DescribedImage src={RaclawiceSmall} alt="Raclawice Panorama" description="By Andreas Lischka on Pixabay" />
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Racławice Panorama</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -71,7 +72,7 @@ export default function Wroclaw({ metadata, navbar }) {
             <FullscreenImage src={ZooLarge} alt="Wroclaw Zoo" title="Wrocław Zoo" description="By Dariusz Sankowski on Pixabay" />
             
             <LandmarkInfo>
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Wrocław Zoo</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -84,7 +85,7 @@ export default function Wroclaw({ metadata, navbar }) {
             
             <LandmarkInfo>
                 <DescribedImage src={CHSmall} alt="Centennial Hall" description="By Łukasz Tekieli on Pixabay" />
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Centennial Hall</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 

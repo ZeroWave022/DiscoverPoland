@@ -18,6 +18,7 @@ import InstrumentsMuseumLarge from "@public/images/landmarks/PoznanInstrumentsMu
 import InstrumentsMuseumSmall from "@public/images/landmarks/PoznanInstrumentsMuseum-small.jpg";
 
 import styles from "@styles/CityPage.module.css";
+import LIstyles from "@components/LandmarkInfo/LandmarkInfo.module.css";
 
 const pageConfig = {
     metadata: {
@@ -47,7 +48,7 @@ export default function Poznan({ metadata, navbar }) {
     return (
         <Layout metadata={metadata} navbar={navbar}>
             <LandmarkInfo>
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Poznań</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -60,7 +61,7 @@ export default function Poznan({ metadata, navbar }) {
             
             <LandmarkInfo>
                 <DescribedImage src={OldTownSmall} alt="Poznan Old Town" description="Retrieved from Pixabay" />
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Poznań Old Town</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -71,7 +72,7 @@ export default function Poznan({ metadata, navbar }) {
             <FullscreenImage src={MuseumLarge} alt="Poznan National Museum" title="Poznań National Museum" description="By Diego Delso on Wikimedia Commons. CC BY-SA 4.0" />
             
             <LandmarkInfo>
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Poznań National Museum</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -84,7 +85,7 @@ export default function Poznan({ metadata, navbar }) {
             
             <LandmarkInfo>
                 <DescribedImage src={InstrumentsMuseumSmall} alt="Poznan Instruments Museum" description="By Wojciech Kuchta on Wikimedia Commons. CC BY-SA 3.0" />
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Poznań Instruments Museum</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 

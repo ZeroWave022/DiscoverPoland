@@ -18,6 +18,7 @@ import StMaryChurchLarge from "@public/images/landmarks/StMaryChurch-large.jpg";
 import StMaryChurchSmall from "@public/images/landmarks/StMaryChurch-small.jpg";
 
 import styles from "@styles/CityPage.module.css";
+import LIstyles from "@components/LandmarkInfo/LandmarkInfo.module.css";
 
 const pageConfig = {
     metadata: {
@@ -47,7 +48,7 @@ export default function Gdansk({ metadata, navbar }) {
     return (
         <Layout metadata={metadata} navbar={navbar}>
             <LandmarkInfo>
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Gdańsk</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -60,7 +61,7 @@ export default function Gdansk({ metadata, navbar }) {
             
             <LandmarkInfo>
                 <DescribedImage src={WW2MuseumSmall} alt="Second World War Museum" description="By Łukasz Katlewa on Wikimedia Commons. CC BY-SA 3.0" />
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">World War II Museum</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -71,7 +72,7 @@ export default function Gdansk({ metadata, navbar }) {
             <FullscreenImage src={NeptuneLarge} alt="Neptune's Fountain" title="Neptune's Fountain" description="By Janusz Kreczmański on Pixabay" />
             
             <LandmarkInfo>
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Neptune&apos;s Fountain</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -84,7 +85,7 @@ export default function Gdansk({ metadata, navbar }) {
             
             <LandmarkInfo>
                 <DescribedImage src={StMaryChurchSmall} alt="Saint Mary's Church" description="By Diego Delso on Wikimedia Commons. CC BY-SA 3.0" />
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Saint Mary&apos;s Church</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 

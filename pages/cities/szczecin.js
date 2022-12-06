@@ -18,6 +18,7 @@ import ParkLarge from "@public/images/landmarks/SzczecinPark-large.jpg";
 import ParkSmall from "@public/images/landmarks/SzczecinPark-small.jpg";
 
 import styles from "@styles/CityPage.module.css";
+import LIstyles from "@components/LandmarkInfo/LandmarkInfo.module.css";
 
 const pageConfig = {
     metadata: {
@@ -47,7 +48,7 @@ export default function Szczecin({ metadata, navbar }) {
     return (
         <Layout metadata={metadata} navbar={navbar}>
             <LandmarkInfo>
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Szczecin</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -60,7 +61,7 @@ export default function Szczecin({ metadata, navbar }) {
             
             <LandmarkInfo>
                 <DescribedImage src={DucalCastleSmall} alt="Ducal Castle in Szczecin" description="By Kapitel on Wikimedia Commons. Public Domain" />
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Ducal Castle</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -71,7 +72,7 @@ export default function Szczecin({ metadata, navbar }) {
             <FullscreenImage src={TechnologyMuseumLarge} alt="Museum of Technology and Transport in Szczecin" title="Museum of Technology and Transport" description="By Kapitel on Wikimedia Commons. CC0" />
             
             <LandmarkInfo>
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Museum of Technology and Transport</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -84,7 +85,7 @@ export default function Szczecin({ metadata, navbar }) {
             
             <LandmarkInfo>
                 <DescribedImage src={ParkSmall} alt="Szczecin City Park" description="By Kapitel on Wikimedia Commons. Public Domain" />
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Park Żeromskiego</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 

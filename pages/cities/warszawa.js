@@ -18,6 +18,7 @@ import WarsawRisingSmall from "@public/images/landmarks/WarsawRising-small.jpg";
 import WarsawRisingLarge from "@public/images/landmarks/WarsawRising-large.jpg";
 
 import styles from "@styles/CityPage.module.css";
+import LIstyles from "@components/LandmarkInfo/LandmarkInfo.module.css";
 
 const pageConfig = {
     metadata: {
@@ -47,7 +48,7 @@ export default function Warszawa({ metadata, navbar }) {
     return (
         <Layout metadata={metadata} navbar={navbar}>
             <LandmarkInfo>
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Warszawa</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -60,7 +61,7 @@ export default function Warszawa({ metadata, navbar }) {
             
             <LandmarkInfo>
                 <DescribedImage src={PalaceCSSmall} alt="The Palace of Culture and Science" description="By Adrian Grycuk on Wikimedia Commons. CC BY-SA 3.0 PL" />
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">The Palace of Culture and Science</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -71,7 +72,7 @@ export default function Warszawa({ metadata, navbar }) {
             <FullscreenImage src={RoyalCastleLarge} alt="The Royal Castle" title="The Royal Castle" description="By Dariusz Staniszewski on Pixabay" />
             
             <LandmarkInfo>
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">The Royal Castle</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
@@ -84,7 +85,7 @@ export default function Warszawa({ metadata, navbar }) {
             
             <LandmarkInfo>
                 <DescribedImage src={WarsawRisingSmall} alt="Warsaw Rising Museum" description="By Adrian Grycuk on Wikimedia Commons. CC BY-SA 3.0 PL" />
-                <div>
+                <div className={LIstyles.text}>
                     <Title size="large">Warsaw Rising Museum</Title>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
 
