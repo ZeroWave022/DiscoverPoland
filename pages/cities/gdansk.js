@@ -22,8 +22,8 @@ import LIstyles from "@components/LandmarkInfo/LandmarkInfo.module.css";
 
 const pageConfig = {
     metadata: {
-        title: "Discover Poland: Cities",
-        description: "Discover Poland: Cities",
+        title: "Discover Poland: Gdańsk",
+        description: "Discover Poland: Gdańsk",
     },
     navbar: {
         active: 1,

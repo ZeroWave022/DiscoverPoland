@@ -22,8 +22,8 @@ import LIstyles from "@components/LandmarkInfo/LandmarkInfo.module.css";
 
 const pageConfig = {
     metadata: {
-        title: "Discover Poland: Cities",
-        description: "Discover Poland: Cities",
+        title: "Discover Poland: Poznań",
+        description: "Discover Poland: Poznań",
     },
     navbar: {
         active: 1,
