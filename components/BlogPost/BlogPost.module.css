@@ -1,0 +1,21 @@
+.container {
+    padding: 15px;
+    width: 35vw;
+    min-width: 500px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: 25px auto;
+    transition: 0.5s ease-in-out;
+}
+
+.container:hover {
+    transition: 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.4) 4px 8px 8px;
+    border-color: rgb(225, 0, 0)
+}
+
+.date {
+    font-weight: 300;
+    font-style: italic;
+    text-align: right;
+}
