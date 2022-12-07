@@ -5,7 +5,7 @@ sourceName: 'Poland.travel'
 sourceLink: 'https://www.poland.travel/en/travel-inspirations/dates-for-christmas-markets-in-poland-2022'
 ---
 
-Polish communities celebrate christmas by opening Christmas Markets, often in their local Old Town.
+Polish communities celebrate christmas by opening Christmas Markets, often in their local town square.
 One of the most visited markets is the one found in Kraków, but tourists will find markets all across Poland.
 
 Opening and closing dates for various cities:
