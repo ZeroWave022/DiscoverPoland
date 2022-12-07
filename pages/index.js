@@ -1,8 +1,11 @@
 import Layout from "@components/Layout/Layout.js";
+import Title from "@components/Title/Title.js";
 import FullscreenVideo from "@components/FullscreenVideo/FullscreenVideo.js";
 import InteractiveMap from "@components/InteractiveMap/InteractiveMap.js";
+import BlogPost from "@components/BlogPost/BlogPost";
+
 import getNavbarLinks from "@lib/getNavbarLinks.js";
-import Title from "@components/Title/Title.js";
+import { getPosts } from "@lib/blogPosts.js";
 
 import styles from "@styles/Home.module.css";
 
@@ -10,8 +13,8 @@ import poland from "@public/images/PolandMap.svg";
 
 const pageConfig = {
     metadata: {
-        title: "Discover Poland: Homepage",
-        description: "Discover Poland: Homepage",
+        title: "Discover Poland: Home",
+        description: "Discover Poland: Home",
     },
     navbar: {
         active: 0,
@@ -20,6 +23,8 @@ const pageConfig = {
 
 export async function getStaticProps() {
     let navbarLinks = await getNavbarLinks();
+    let blogPosts = await getPosts();
+    let newestPost = blogPosts[0];
 
     return {
         props: {
@@ -28,11 +33,12 @@ export async function getStaticProps() {
                 links: navbarLinks,
                 active: pageConfig.navbar.active,
             },
+            newestPost: newestPost
         },
     };
 }
 
-export default function Home({ metadata, navbar }) {
+export default function Home({ metadata, navbar, newestPost }) {
     const indexVideoInfo = (
         <>
             All rights belong to their respective owners. <br />
@@ -49,6 +55,8 @@ export default function Home({ metadata, navbar }) {
                 <Title size="large" font="SaturdayBright">Poland</Title>
             </div>
             <InteractiveMap src={poland} />
+            <Title size="large">Newest blog post</Title>
+            <BlogPost post={newestPost} />
         </Layout>
     );
 }
