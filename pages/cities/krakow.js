@@ -50,9 +50,14 @@ export default function Krakow({ metadata, navbar }) {
             <LandmarkInfo>
                 <div className={LIstyles.text}>
                     <Title size="large">Kraków</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        Kraków, the home to Wawel Royal Castle and a beautiful Old Town, is often stated to be the one of Europe&apos;s most beautiful cities.
+                        The Wawel Royal Castle has been declared as a UNESCO World Heritage site in 1978, and the city has been the capital of Poland until 1596.
+                    </p>
+                    <p>
+                        Kraków is also home to the Jagiellonian University, one of the oldest and most reputable institutions of higher education.
+                        With a rich history, Kraków is offering a variety of museums and buildings to be explored. An example could be the nearby Wieliczka Salt Mine or Saint Mary&apos;s Basilica.
+                    </p>
                 </div>
                 <DescribedImage src={TownSquare} alt="Krakow Town Square" description="Kraków Town Square. By Dimitris Vetsikas on Pixabay" />
             </LandmarkInfo>
@@ -63,9 +68,15 @@ export default function Krakow({ metadata, navbar }) {
                 <DescribedImage src={krakow} alt="Wawel Royal Castle" description="By tevenet on Pixabay" />
                 <div className={LIstyles.text}>
                     <Title size="large">Wawel Royal Castle</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        The Wawel Royal Castle is often called one of the most important historical sites in Poland.
+                        Wawel was a residency established for King Casimir III the Great, and the architecture represents Medieval, Renaissance and Baroque periods.
+                    </p>
+                    <p>
+                        Today, the Castle hosts a museum which can be visited by anyone. 
+                        The museum includes a variety of departments, including art, sculpture, paintings and collections.
+                        This museum is also an important center for conservation of art, as it includes seven conservation studios.
+                    </p>
                 </div>
             </LandmarkInfo>
             
@@ -74,9 +85,15 @@ export default function Krakow({ metadata, navbar }) {
             <LandmarkInfo>
                 <div className={LIstyles.text}>
                     <Title size="large">Wieliczka Salt Mine</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        While technically not in Kraków, Wieliczka Salt Mine has had a great significance in the area near Kraków.
+                        From Neolithic times, all the way until 1996, this mine produced table salt.
+                        The mine has a depth of 327 metres and has chambers which total to over 287 kilometres.
+                    </p>
+                    <p>
+                        The Wieliczka Salt Mine is a unique experience, no matter your expectations.
+                        Have you already been there? No worries, there are multiple paths available.
+                    </p>
                 </div>
                 <DescribedImage src={SaltMineSmall} alt="Wieliczka Salt Mine" description="By Jacek Abramowicz on Pixabay" />
             </LandmarkInfo>
@@ -87,9 +104,16 @@ export default function Krakow({ metadata, navbar }) {
                 <DescribedImage src={SMBSmall} alt="Saint Mary's Basilica" description="By Jar.ciurus on Wikimedia Commons. CC BY-SA 3.0 PL" />
                 <div className={LIstyles.text}>
                     <Title size="large">Saint Mary&apos;s Basilica</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        This beautiful piece of architecture is quite a popular tourist attraction in Kraków.
+                        Saint Mary&apos;s Basilica was built in the 14th century, and is 80 meters tall.
+                        It was listed as a UNESCO World Heritage site in 1978.
+                    </p>
+                    <p>
+                        Every hour of the day, a trumpet signal is played from the top of the Basilica.
+                        The tune breaks off mid-stream, honoring a legend about a 13th century trumpeter that was shot in the throat while sounding the tune to alert about an incoming attack.
+                        The Basilica also hosts a famous wooden altarpiece by Veit Stoss, carved in the 14th century.
+                    </p>
                 </div>
             </LandmarkInfo>
 
