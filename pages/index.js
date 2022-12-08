@@ -3,13 +3,14 @@ import Title from "@components/Title/Title.js";
 import FullscreenVideo from "@components/FullscreenVideo/FullscreenVideo.js";
 import InteractiveMap from "@components/InteractiveMap/InteractiveMap.js";
 import BlogPost from "@components/BlogPost/BlogPost";
+import TextLink from "@components/TextLink/TextLink";
 
 import getNavbarLinks from "@lib/getNavbarLinks.js";
 import { getPosts } from "@lib/blogPosts.js";
 
 import styles from "@styles/Home.module.css";
 
-import poland from "@public/images/PolandMap.svg";
+import PolandMap from "@public/images/PolandMap.svg";
 
 const pageConfig = {
     metadata: {
@@ -54,9 +55,14 @@ export default function Home({ metadata, navbar, newestPost }) {
                 <Title size="large" font="SaturdayBright">Discover</Title>
                 <Title size="large" font="SaturdayBright">Poland</Title>
             </div>
-            <InteractiveMap src={poland} />
+            
+            <InteractiveMap src={PolandMap} />
+            
             <Title size="large">Newest blog post</Title>
             <BlogPost post={newestPost} />
+
+            <Title size="large">Discover the ❤️ of Europe</Title>
+            <Title size="medium">Want to know more? Read about tourist attractions on the <TextLink href="/cities" color="dark">cities page</TextLink>!</Title>
         </Layout>
     );
 }
