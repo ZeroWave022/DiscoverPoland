@@ -16,7 +16,7 @@ function BlogPost({ post }) {
                 post.sourceLink ? (
                     <div>
                         <span>Source: </span>
-                        <TextLink href={post.sourceLink}>{post.sourceName}</TextLink>
+                        <TextLink href={post.sourceLink} color="dark">{post.sourceName}</TextLink>
                     </div>
                 ) : null
             }
