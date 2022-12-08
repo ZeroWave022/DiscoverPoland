@@ -7,12 +7,16 @@
 }
 
 .textLink:hover {
-    /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
-    /*box-shadow: rgba(0, 0, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
-
-    background-color: rgba(255, 255, 255, 0.7);
-
     transition: 0.2s ease-in-out;
+}
+
+/* Define different colors, depending on what fits better */
+.lightLink:hover {
+    background-color: rgba(255, 255, 255, 0.7)
+}
+
+.darkLink:hover {
+    background-color: rgba(0, 0, 0, 0.04);
 }
 
 /* Define the types of shadow boxes we can choose from. */
