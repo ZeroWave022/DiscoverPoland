@@ -7,6 +7,7 @@ function FullscreenVideo({ src, videoInfo }) {
     let ref = React.useRef(null);
 
     function updateHeight() {
+        if (!window.innerHeight || !ref.current.offsetTop) return;
         let offsetFromTop = window.innerHeight - ref.current.offsetTop;
 
         setHeight(offsetFromTop);
