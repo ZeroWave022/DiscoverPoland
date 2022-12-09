@@ -103,10 +103,13 @@ export default function Warszawa({ metadata, navbar }) {
                 <div className={LIstyles.text}>
                     <Title size="large">Warsaw Rising Museum</Title>
                     <p>
-
+                        The Warsaw Rising Museum is dedicated to the Warsaw Uprising of 1944.
+                        It opened on July 31, 2004, and today it is an important museum in Warsaw.
                     </p>
                     <p>
-
+                        The museum also sponsors research of the Warsaw Uprising, and the history of the Polish Underground State.
+                        It maintains many artifacts from the people involved, for example weapons, love letter, personal stories and so on.
+                        The museum in a member of the Platform of European Memory and Conscience.
                     </p>
                 </div>
             </LandmarkInfo>
