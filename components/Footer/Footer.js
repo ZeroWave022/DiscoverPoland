@@ -42,7 +42,7 @@ function Footer() {
                     Discover Poland has been made to promote tourism in Poland, so more people may be interested in visiting the ❤️ of Europe.
                 </p>
                 <p>
-                    This project can be seen on <TextLink href="https://github.com/ZeroWave022/DiscoverPoland" target="_blank" shadowSize="medium">GitHub</TextLink>.
+                    This project can be seen on <TextLink href="https://github.com/ZeroWave022/DiscoverPoland" target="_blank">GitHub</TextLink>.
                 </p>
             </div>
         </div>

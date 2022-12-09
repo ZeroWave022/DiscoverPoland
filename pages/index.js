@@ -2,8 +2,8 @@ import Layout from "@components/Layout/Layout.js";
 import Title from "@components/Title/Title.js";
 import FullscreenVideo from "@components/FullscreenVideo/FullscreenVideo.js";
 import InteractiveMap from "@components/InteractiveMap/InteractiveMap.js";
-import BlogPost from "@components/BlogPost/BlogPost";
-import TextLink from "@components/TextLink/TextLink";
+import BlogPost from "@components/BlogPost/BlogPost.js";
+import TextLink from "@components/TextLink/TextLink.js";
 
 import getNavbarLinks from "@lib/getNavbarLinks.js";
 import { getPosts } from "@lib/blogPosts.js";
@@ -62,7 +62,7 @@ export default function Home({ metadata, navbar, newestPost }) {
             <BlogPost post={newestPost} />
 
             <Title size="large">Discover the ❤️ of Europe</Title>
-            <Title size="medium">Want to know more? Read about tourist attractions on the <TextLink href="/cities" color="dark">cities page</TextLink>!</Title>
+            <Title size="medium">Want to know more? Read about tourist attractions on the <TextLink href="/cities">cities page</TextLink>!</Title>
         </Layout>
     );
 }
