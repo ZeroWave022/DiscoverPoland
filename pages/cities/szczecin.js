@@ -50,9 +50,14 @@ export default function Szczecin({ metadata, navbar }) {
             <LandmarkInfo>
                 <div className={LIstyles.text}>
                     <Title size="large">Szczecin</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        This city is full of attractions for tourists, including the Old Town, Ducal Castle, various museums, parks, and last, but not least, its port.
+                        Szczecin is known for being a port city because of its location near the Baltic Sea. It has become a center for activies in the Oder river, and other aquatic acitivities and sports.
+                    </p>
+                    <p>
+                        You will also find a lot of historical buildings here which are preserved quite well, including the Szczecin Cathedral and various monuments.
+                        The city has been nominated for the European Capital of Culture in 2016.
+                    </p>
                 </div>
                 <DescribedImage src={szczecin} alt="Sailing boats in Szczecin" description="By Renata Misztal on Pixabay" />
             </LandmarkInfo>
@@ -63,9 +68,15 @@ export default function Szczecin({ metadata, navbar }) {
                 <DescribedImage src={DucalCastleSmall} alt="Ducal Castle in Szczecin" description="By Kapitel on Wikimedia Commons. Public Domain" />
                 <div className={LIstyles.text}>
                     <Title size="large">Ducal Castle</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        The Ducal Castle, also known as the Pomerian Dukes&apos; Castle, is a castle in Szczecin, in a renaissance style.
+                        It is located in the center of the city, in the Stare Miasto (from Polish: Old Town), near the Oder river.
+                        The construction of the Castle finished in 1428.
+                    </p>
+                    <p>
+                        It is one of the largest cultural centres in this part of Poland.
+                        The architect was Wilhelm Zachariasz Italus.
+                    </p>
                 </div>
             </LandmarkInfo>
             
@@ -74,9 +85,18 @@ export default function Szczecin({ metadata, navbar }) {
             <LandmarkInfo>
                 <div className={LIstyles.text}>
                     <Title size="large">Museum of Technology and Transport</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        This museum has been established in 2006, and it is one of the biggest technological museums in Poland.
+                        In the museum, you&apos;ll learn more about:
+                        <ul>
+                            <li>The history of public transport in Szczecin</li>
+                            <li>Motorcycles and cars produced in Poland</li>
+                            <li>Prototypes of vehicles which weren&apos;t mass produced</li>
+                        </ul>
+                    </p>
+                    <p>
+                        The museum often hosts different types of exhibitions, and you can read more on their own website.
+                    </p>
                 </div>
                 <DescribedImage src={TechnologyMuseumSmall} alt="Museum of Technology and Transport in Szczecin" description="By Szczecinolog on Wikimedia Commons. CC BY-SA 4.0" />
             </LandmarkInfo>
@@ -86,10 +106,16 @@ export default function Szczecin({ metadata, navbar }) {
             <LandmarkInfo>
                 <DescribedImage src={ParkSmall} alt="Szczecin City Park" description="By Kapitel on Wikimedia Commons. Public Domain" />
                 <div className={LIstyles.text}>
-                    <Title size="large">Park Żeromskiego</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <Title size="large">City Park Żeromskiego</Title>
+                    <p>
+                        This city park is named after Stefan Żeromski.
+                        It is the second largest park in Szczecin, with an area of about 22 hectares.
+                    </p>
+                    <p>
+                        In the park, you&apos;ll find about 177 types of trees.
+                        In addition, you will encounter monuments and a hotel.
+                        This is the perfect place for relax on your journey in Szczecin.
+                    </p>
                 </div>
             </LandmarkInfo>
 
