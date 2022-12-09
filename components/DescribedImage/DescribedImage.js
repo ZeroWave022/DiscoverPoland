@@ -6,7 +6,7 @@ import styles from "./DescribedImage.module.css";
 function DescribedImage({ src, alt, description }) {
     return (
         <div className={styles.container}>
-            <Image src={src} alt={alt} />
+            <Image src={src} alt={alt} placeholder="blur" />
             <span>{description}</span>
         </div>
     );

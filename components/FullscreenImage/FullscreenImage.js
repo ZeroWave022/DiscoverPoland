@@ -29,7 +29,7 @@ function FullscreenImage({ src, alt, title, description }) {
     
     return (
         <div className={styles.container}>
-            <Image src={src} alt={alt} />
+            <Image src={src} alt={alt} placeholder="blur" />
             <h1 className={styles.imageText}>{title}</h1>
             <span className={styles.description}>{description}</span>
         </div>
