@@ -40,37 +40,37 @@ export default function Cities({ metadata, navbar }) {
             <ImageGrid>
                 <Link href="/cities/krakow">
                     <>
-                        <Image src={krakow} alt="Kraków - Wawel Royal Castle" priority />
+                        <Image src={krakow} alt="Kraków - Wawel Royal Castle" priority placeholder="blur" />
                         <p>Kraków</p>
                     </>
                 </Link>
                 <Link href="/cities/wroclaw">
                     <>
-                        <Image src={wroclaw} alt="Wrocław - Old Town" priority />
+                        <Image src={wroclaw} alt="Wrocław - Old Town" priority placeholder="blur" />
                         <p>Wrocław</p>
                     </>
                 </Link>
                 <Link href="/cities/warszawa">
                     <>
-                        <Image src={warszawa} alt="Warszawa - City Center" priority />
+                        <Image src={warszawa} alt="Warszawa - City Center" priority placeholder="blur" />
                         <p>Warszawa</p>
                     </>
                 </Link>
                 <Link href="/cities/poznan">
                     <>
-                        <Image src={poznan} alt="Poznań - Old Town" priority />
+                        <Image src={poznan} alt="Poznań - Old Town" priority placeholder="blur" />
                         <p>Poznań</p>
                     </>
                 </Link>
                 <Link href="/cities/gdansk">
                     <>
-                        <Image src={gdansk} alt="Gdańsk - Neptune's Fountain" priority />
+                        <Image src={gdansk} alt="Gdańsk - Neptune's Fountain" priority placeholder="blur" />
                         <p>Gdańsk</p>
                     </>
                 </Link>
                 <Link href="/cities/szczecin">
                     <>
-                        <Image src={szczecin} alt="Szczecin - Port" priority />
+                        <Image src={szczecin} alt="Szczecin - Port" priority placeholder="blur" />
                         <p>Szczecin</p>
                     </>
                 </Link>
