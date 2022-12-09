@@ -50,9 +50,14 @@ export default function Poznan({ metadata, navbar }) {
             <LandmarkInfo>
                 <div className={LIstyles.text}>
                     <Title size="large">Poznań</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        On the river Warta, we find Poznań, a city with a Renaissance Old Town, Cathedral, and multiple museums.
+                        It was one of the four historical captials of medieval Poland. Currently Poznań is the capital of the Greater Poland Voivodeship.
+                    </p>
+                    <p>
+                        Poznań is considered to be an important center for technology, sports and education.
+                        The Adam Mickiewicz University, the third largest university of Poland, is located in Poznań. Currently, there are about 130 000 students in the city.
+                    </p>
                 </div>
                 <DescribedImage src={Background} alt="" description="Retrieved from Pixabay" />
             </LandmarkInfo>
@@ -63,9 +68,14 @@ export default function Poznan({ metadata, navbar }) {
                 <DescribedImage src={OldTownSmall} alt="Poznan Old Town" description="Retrieved from Pixabay" />
                 <div className={LIstyles.text}>
                     <Title size="large">Poznań Old Town</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        Poznań&apos;s Old Town in the heart of Poznań, with multiple restaurants and bars.
+                        It also hosts the town hall, which used to be the local government until 1939.
+                    </p>
+                    <p>
+                        Today, the local town hall hosts a museum.
+                        This old town is also listed as one of Poland&apos;s official Historic Monuments.
+                    </p>
                 </div>
             </LandmarkInfo>
             
@@ -74,9 +84,14 @@ export default function Poznan({ metadata, navbar }) {
             <LandmarkInfo>
                 <div className={LIstyles.text}>
                     <Title size="large">Poznań National Museum</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        The National Museum in Poznań is one of the biggest museums in Poland.
+                        It houses multiple collections of paintings and historical objects.
+                    </p>
+                    <p>
+                        The museum established in 1919.
+                        It has multiple branches in the city, like the Museum of Applied Arts, or the Museum of the History of Poznań.
+                    </p>
                 </div>
                 <DescribedImage src={MuseumSmall} alt="Poznan National Museum" description="Dama przy oknie (A Lady By The Window) by Władysław Czachórski, approx. 1875." />
             </LandmarkInfo>
@@ -87,9 +102,14 @@ export default function Poznan({ metadata, navbar }) {
                 <DescribedImage src={InstrumentsMuseumSmall} alt="Poznan Instruments Museum" description="By Wojciech Kuchta on Wikimedia Commons. CC BY-SA 3.0" />
                 <div className={LIstyles.text}>
                     <Title size="large">Poznań Instruments Museum</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        This Museum of Instruments hosts over 2 000 objects of musical and historical importance.
+                        In its category, it is the third biggest museum in Europe.
+                    </p>
+                    <p>
+                        This museum was established in 1945, and it is an important branch of the National Museums in Poznań.
+                        It has many exhibitions in 19 themed rooms, including a room dedicated to Frédéric Chopin, a famous Polish musician.
+                    </p>
                 </div>
             </LandmarkInfo>
 
