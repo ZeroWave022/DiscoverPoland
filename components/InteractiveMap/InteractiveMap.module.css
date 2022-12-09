@@ -6,52 +6,56 @@
     gap: 15px;
 }
 
-.container img {
-    width: 500px;
-    height: 500px;
-}
-
 .map {
     position: relative;
-    width: min-content;
+    width: 500px;
+    height: auto;
+}
+
+.map > img {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .map a {
-    padding: 5px;
-    border-radius: 50%;
-    background-color: red;
-    
     position: absolute;
 }
 
+.map a img {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
 .map #SZZ {
-    top: 22%;
-    left: 3.5%;
+    top: 20.5%;
+    left: 1.5%;
 }
 
 .map #GDN {
-    top: 7%;
-    left: 44%;
+    top: 3%;
+    left: 42%;
 }
 
 .map #POZ {
-    top: 43%;
-    left: 27%;
+    top: 39%;
+    left: 25%;
 }
 
 .map #WAW {
-    top: 46%;
-    right: 30%;
+    top: 41%;
+    right: 27%;
 }
 
 .map #KRK {
-    bottom: 15%;
-    right: 40%;
+    bottom: 13%;
+    right: 38%;
 }
 
 .map #WRO {
-    bottom: 34%;
-    left: 28%;
+    bottom: 33%;
+    left: 24%;
 }
 
 .infoBox {
@@ -78,9 +82,9 @@
         flex-direction: column;
     }
 
-    .map img {
+    .map {
         width: 80vw;
-        height: 80vw;
+        height: auto;
     }
 
     .infoBox {

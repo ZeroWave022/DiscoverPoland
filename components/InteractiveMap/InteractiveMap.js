@@ -5,6 +5,8 @@ import { SyntheticEvent } from "react";
 
 import CityDescriptions from "@lib/CityDescriptions.js";
 
+import LocationIcon from "@public/images/icons/location.png";
+
 import styles from "./InteractiveMap.module.css";
 
 /**
@@ -44,12 +46,24 @@ function InteractiveMap({ src }) {
         <div className={styles.container}>
             <div className={styles.map}>
                 <Image src={src} alt="Map of Poland" />
-                <a id={styles.SZZ} href="" onClick={(e) => handleClick(e, "SZZ")} />
-                <a id={styles.GDN} href="" onClick={(e) => handleClick(e, "GDN")} />
-                <a id={styles.POZ} href="" onClick={(e) => handleClick(e, "POZ")} />
-                <a id={styles.WAW} href="" onClick={(e) => handleClick(e, "WAW")} />
-                <a id={styles.KRK} href="" onClick={(e) => handleClick(e, "KRK")} />
-                <a id={styles.WRO} href="" onClick={(e) => handleClick(e, "WRO")} />
+                <a id={styles.SZZ} href="" onClick={(e) => handleClick(e, "SZZ")}>
+                    <Image className={styles.icon} src={LocationIcon} alt="" />
+                </a>
+                <a id={styles.GDN} href="" onClick={(e) => handleClick(e, "GDN")}>
+                    <Image className={styles.icon} src={LocationIcon} alt="" />
+                </a>
+                <a id={styles.POZ} href="" onClick={(e) => handleClick(e, "POZ")}>
+                    <Image className={styles.icon} src={LocationIcon} alt="" />
+                </a>
+                <a id={styles.WAW} href="" onClick={(e) => handleClick(e, "WAW")}>
+                    <Image className={styles.icon} src={LocationIcon} alt="" />
+                </a>
+                <a id={styles.KRK} href="" onClick={(e) => handleClick(e, "KRK")}>
+                    <Image className={styles.icon} src={LocationIcon} alt="" />
+                </a>
+                <a id={styles.WRO} href="" onClick={(e) => handleClick(e, "WRO")}>
+                    <Image className={styles.icon} src={LocationIcon} alt="" />
+                </a>
             </div>
 
             <div ref={infoBoxRef} className={infoBoxClass}> 
