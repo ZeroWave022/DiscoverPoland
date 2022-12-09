@@ -47,7 +47,7 @@ export default function Cities({ metadata, navbar }) {
             <Title size="medium">Sources</Title>
             <p className={styles.infoParagraph}>
                 Information about cities and tourist attractions have been retrieved from Wikipedia - thank you to all the authors.
-                Photos have been retriveed from Pixabay and Wikimedia Commons. Attribution of authors is done on most photos on the website.
+                Photos have been retrieved from Pixabay and Wikimedia Commons. Attribution of authors is done where it&apos;s required.
             </p>
         </Layout>
     );
