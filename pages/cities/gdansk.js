@@ -6,7 +6,7 @@ import LandmarkInfo from "@components/LandmarkInfo/LandmarkInfo.js";
 import FullscreenImage from "@components/FullscreenImage/FullscreenImage.js";
 import DescribedImage from "@components/DescribedImage/DescribedImage.js";
 
-import getNavbarLinks from "@lib/getNavbarLinks.js";
+import getNavbarLinks from "@utils/getNavbarLinks.js";
 
 import Ocean from "@public/images/landmarks/GdanskOcean.jpg";
 import WW2MuseumLarge from "@public/images/landmarks/WW2Museum-large.jpg";

@@ -1,8 +1,8 @@
 import Layout from "@components/Layout/Layout.js";
 import Title from "@components/Title/Title.js";
 
-import getNavbarLinks from "@lib/getNavbarLinks.js";
-import { getPosts } from "@lib/blogPosts.js";
+import getNavbarLinks from "@utils/getNavbarLinks.js";
+import { getPosts } from "@utils/blogPosts.js";
 import BlogPost from "@components/BlogPost/BlogPost";
 
 const pageConfig = {

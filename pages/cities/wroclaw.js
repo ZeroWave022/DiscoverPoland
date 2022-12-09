@@ -6,7 +6,7 @@ import LandmarkInfo from "@components/LandmarkInfo/LandmarkInfo.js";
 import FullscreenImage from "@components/FullscreenImage/FullscreenImage.js";
 import DescribedImage from "@components/DescribedImage/DescribedImage.js";
 
-import getNavbarLinks from "@lib/getNavbarLinks.js";
+import getNavbarLinks from "@utils/getNavbarLinks.js";
 
 import Landscape from "@public/images/landmarks/WroclawLandscape.jpg";
 import RaclawiceLarge from "@public/images/landmarks/Raclawice-large.jpg";

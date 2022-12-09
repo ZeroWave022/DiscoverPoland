@@ -6,7 +6,7 @@ import LandmarkInfo from "@components/LandmarkInfo/LandmarkInfo.js";
 import FullscreenImage from "@components/FullscreenImage/FullscreenImage.js";
 import DescribedImage from "@components/DescribedImage/DescribedImage.js";
 
-import getNavbarLinks from "@lib/getNavbarLinks.js";
+import getNavbarLinks from "@utils/getNavbarLinks.js";
 
 import Background from "@public/images/landmarks/PoznanBackground.jpg";
 import OldTownLarge from "@public/images/landmarks/PoznanOldTown-large.jpg";

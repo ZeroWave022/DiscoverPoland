@@ -2,7 +2,7 @@ import Layout from "@components/Layout/Layout.js";
 import TextLink from "@components/TextLink/TextLink";
 import Title from "@components/Title/Title.js";
 
-import getNavbarLinks from "@lib/getNavbarLinks.js";
+import getNavbarLinks from "@utils/getNavbarLinks.js";
 
 import styles from "@styles/About.module.css";
 

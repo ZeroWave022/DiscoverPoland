@@ -6,8 +6,8 @@ import LandmarkInfo from "@components/LandmarkInfo/LandmarkInfo.js";
 import FullscreenImage from "@components/FullscreenImage/FullscreenImage.js";
 import DescribedImage from "@components/DescribedImage/DescribedImage.js";
 
-import getNavbarLinks from "@lib/getNavbarLinks.js";
-import { krakow } from "@lib/getThumbnails.js";
+import getNavbarLinks from "@utils/getNavbarLinks.js";
+import { krakow } from "@utils/getThumbnails.js";
 
 import TownSquare from "@public/images/landmarks/KrakowTownSquare.jpg";
 import WawelLarge from "@public/images/landmarks/WawelCastle-large.jpg";

@@ -5,9 +5,9 @@ import Layout from "@components/Layout/Layout.js";
 import Title from "@components/Title/Title.js";
 import ImageGrid from "@components/ImageGrid/ImageGrid.js";
 
-import getNavbarLinks from "@lib/getNavbarLinks.js";
+import getNavbarLinks from "@utils/getNavbarLinks.js";
 
-import { krakow, wroclaw, warszawa, poznan, gdansk, szczecin } from "@lib/getThumbnails.js";
+import { krakow, wroclaw, warszawa, poznan, gdansk, szczecin } from "@utils/getThumbnails.js";
 
 const pageConfig = {
     metadata: {

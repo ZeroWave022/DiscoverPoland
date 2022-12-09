@@ -5,8 +5,8 @@ import InteractiveMap from "@components/InteractiveMap/InteractiveMap.js";
 import BlogPost from "@components/BlogPost/BlogPost.js";
 import TextLink from "@components/TextLink/TextLink.js";
 
-import getNavbarLinks from "@lib/getNavbarLinks.js";
-import { getPosts } from "@lib/blogPosts.js";
+import getNavbarLinks from "@utils/getNavbarLinks.js";
+import { getPosts } from "@utils/blogPosts.js";
 
 import styles from "@styles/Home.module.css";
 

@@ -14,8 +14,8 @@
             "@styles/*": [
                 "./styles/*"
             ],
-            "@lib/*": [
-                "./lib/*"
+            "@utils/*": [
+                "./utils/*"
             ],
             "@config/*": [
                 "./config/*"

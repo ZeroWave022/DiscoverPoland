@@ -6,9 +6,9 @@ import LandmarkInfo from "@components/LandmarkInfo/LandmarkInfo.js";
 import FullscreenImage from "@components/FullscreenImage/FullscreenImage.js";
 import DescribedImage from "@components/DescribedImage/DescribedImage.js";
 
-import getNavbarLinks from "@lib/getNavbarLinks.js";
+import getNavbarLinks from "@utils/getNavbarLinks.js";
 
-import { szczecin } from "@lib/getThumbnails.js";
+import { szczecin } from "@utils/getThumbnails.js";
 import DucalCastleLarge from "@public/images/landmarks/DucalCastle-large.jpg";
 import DucalCastleSmall from "@public/images/landmarks/DucalCastle-small.jpg";
 import TechnologyMuseumLarge from "@public/images/landmarks/TechnologyMuseum-large.jpg";

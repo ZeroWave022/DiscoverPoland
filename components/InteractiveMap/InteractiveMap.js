@@ -1,9 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { SyntheticEvent } from "react";
 
-import CityDescriptions from "@lib/CityDescriptions.js";
+import CityDescriptions from "@utils/CityDescriptions.js";
 
 import LocationIcon from "@public/images/icons/location.png";
 
