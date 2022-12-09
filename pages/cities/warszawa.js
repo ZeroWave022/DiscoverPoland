@@ -50,9 +50,14 @@ export default function Warszawa({ metadata, navbar }) {
             <LandmarkInfo>
                 <div className={LIstyles.text}>
                     <Title size="large">Warszawa</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        Warsaw is the capital of Poland and has a population of over 1,8 million inhabitants. This makes Warsaw the 6th most-populous city in the European Union.
+                        Are you already thinking about transport? No problem, as Warsaw will welcome you using one of the airports in the city, Warsaw Chopin and Warsaw Modlin.
+                    </p>
+                    <p>
+                        Warsaw is home to Warsaw Grand Theatre, the largest theatre of its kind in the world.
+                        The capital of Poland will also offer you walks in multiple parks, football matches in its National Stadium, and fantastic views in the Wilanów Palace.
+                    </p>
                 </div>
                 <DescribedImage src={PresidentialPalace} alt="Presidential Palace in Warsaw" description="The Presidential Palace. By wawaleszek on Pixabay" />
             </LandmarkInfo>
@@ -63,9 +68,14 @@ export default function Warszawa({ metadata, navbar }) {
                 <DescribedImage src={PalaceCSSmall} alt="The Palace of Culture and Science" description="By Adrian Grycuk on Wikimedia Commons. CC BY-SA 3.0 PL" />
                 <div className={LIstyles.text}>
                     <Title size="large">The Palace of Culture and Science</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        The Palace of Culture and Science in Warsaw has a height of 237 metres and it is the second tallest building in Poland.
+                        Constructed in 1955, it is still home to cultural institutions like cinemas, libraries, theatres and more.
+                    </p>
+                    <p>
+                        The Palace was also the tallest clock tower in the world, until a bigger clock mechanism was mounted in Tokyo, Japan, in 2000.
+                        Since 2007, the Palace has been registered in the Registry of Objects of Cultural Heritage.
+                    </p>
                 </div>
             </LandmarkInfo>
             
@@ -74,9 +84,14 @@ export default function Warszawa({ metadata, navbar }) {
             <LandmarkInfo>
                 <div className={LIstyles.text}>
                     <Title size="large">The Royal Castle</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
-
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    <p>
+                        Today, the Royal Castle is a state museum and one of Poland&apos;s most important historical monuments.
+                        It formerly served as the official royal residence of multiple Polish monarchs.
+                    </p>
+                    <p>
+                        The Castle is the 16th most visited art museum in the world, and it had over 1,1 million visitors in 2021.
+                        It has been demolished twice, once by the Swedish Army in 1655-1656 and the German Army in 1944, but the Castle has been rebuilt.
+                    </p>
                 </div>
                 <DescribedImage src={RoyalCastleSmall} alt="The Royal Castle" description="By Dariusz Staniszewski on Pixabay" />
             </LandmarkInfo>
@@ -87,9 +102,12 @@ export default function Warszawa({ metadata, navbar }) {
                 <DescribedImage src={WarsawRisingSmall} alt="Warsaw Rising Museum" description="By Adrian Grycuk on Wikimedia Commons. CC BY-SA 3.0 PL" />
                 <div className={LIstyles.text}>
                     <Title size="large">Warsaw Rising Museum</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ligula ut lectus sodales pellentesque a sit amet lectus. Cras vestibulum imperdiet sodales. Quisque non sem mi. Vestibulum ac accumsan tortor, vel venenatis ipsum. Morbi egestas, augue sed suscipit iaculis, neque magna luctus erat, et vehicula velit nibh vel libero. Nulla facilisi. Sed sodales dolor velit, sit amet cursus lacus placerat ac. Quisque pellentesque, ligula sit amet interdum accumsan, dui augue porttitor elit, vel tincidunt est sapien vel justo. Sed et odio malesuada, pharetra urna malesuada, dignissim libero. Integer porttitor pharetra mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lacinia id diam id condimentum. </p>
+                    <p>
 
-                    <p>Aenean luctus, leo ut mollis tincidunt, est libero malesuada mauris, eget facilisis elit quam in lacus. Maecenas finibus, erat a varius sagittis, diam velit egestas orci, vel posuere nunc dolor vitae velit. In fermentum quam maximus risus laoreet, vitae commodo dui auctor. In sit amet auctor magna. Donec et augue in ipsum placerat dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum, orci vitae vehicula condimentum, nibh neque fringilla quam, quis varius lectus metus at lectus. In vel felis et dolor convallis efficitur iaculis non lacus.</p>
+                    </p>
+                    <p>
+
+                    </p>
                 </div>
             </LandmarkInfo>
 
