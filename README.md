@@ -15,13 +15,15 @@
 
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
 
-# Running locally
+## Running locally
 
-## Prerequisites
+### Prerequisites
+
 Node.js 14.6.0+ and npm are required to run this website.
 You may read additional information about requirements on [Next.js' website](https://nextjs.org/docs/getting-started).
 
-## Installation
+### Installation
+
 - Clone the repository with
 ```
 git clone https://github.com/ZeroWave022/DiscoverPoland.git
@@ -38,3 +40,6 @@ npm run dev
 ```
 
 To build and host a production-ready version, run `npm run build` followed by `npm run start`.
+
+## License
+This project is licensed under the [Apache License 2.0](https://github.com/ZeroWave022/DiscoverPoland/blob/main/LICENSE).
